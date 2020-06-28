@@ -68,7 +68,7 @@ With the control algorithm, you can DIY an automated mobile car as shown below.
 
 - Line track example:
 <div align="center">
-    <img src="doc/results/car_example.png" width = 75% >
+    <img src="doc/results/car.gif" width = 75% >
 </div>
 
 ## 7.Acknowledgments
