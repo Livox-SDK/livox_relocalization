@@ -36,7 +36,7 @@ Clone the repository and catkin_make:
     source ~/catkin_ws/devel/setup.bash
 ```
 ## 3. Get lidar map
-Download [map_example]() or use your own mid40 to create a map and save it to pcd file. You can use our mapping package [livox_mapping](https://github.com/Livox-SDK/livox_mapping) to create this map.
+Download [map_example](https://terra-1-g.djicdn.com/65c028cd298f4669a7f0e40e50ba1131/Showcase/map_example.zip) or use your own mid40 to create a map and save it to pcd file. You can use our mapping package [livox_mapping](https://github.com/Livox-SDK/livox_mapping) to create this map.
 
 The map_example.zip include four files {all_points.pcd corner.pcd surf.pcd key_frame.txt}.
 
@@ -44,7 +44,7 @@ Move these files{all_points.pcd corner.pcd surf.pcd key_frame.txt} to .../livox_
 Change the 'map_file_path' in livox_relocalization.launch to your own path.
 
 ## 4. Rosbag example
-Download [mid40_re_example]() and then
+Download [mid40_re_example](https://terra-1-g.djicdn.com/65c028cd298f4669a7f0e40e50ba1131/Showcase/mid40_re_example.bag) and then
 ```
 roslaunch livox_relocalization livox_relocalization.launch
 rosbag play YOUR_DOWNLOADED.bag
