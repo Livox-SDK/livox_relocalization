@@ -59,6 +59,7 @@ First you should get your own map and load it,then connect to your PC to Livox L
 ```
 *Remarks:*
 - In this version, the initial pose still needs to be close to the original trajectory, especially the rotation.
+- When the paramter 'use_map_update' is setted to 'true', the map will be updated during the relocalization process, otherwise only the original map is used.
 
 ## 6.AMR(Automated Mobile Robot) example
 With the control algorithm, you can DIY an automated mobile car as shown below.
