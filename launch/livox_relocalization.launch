@@ -12,7 +12,7 @@
 
   <node pkg="livox_relocalization" type="livox_laserMapping" name="laserMapping" output="screen">
   <param name="map_file_path" type="string" value=" " />
-  <param name="use_map_update" type="bool" value="true" />
+  <param name="use_map_update" type="bool" value="false" />
   </node>
 
   <group if="$(arg rviz)">
